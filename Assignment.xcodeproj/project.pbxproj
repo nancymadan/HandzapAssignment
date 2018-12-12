@@ -8,7 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0404617B21C180F1003FD7C9 /* AddressOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404617A21C180F0003FD7C9 /* AddressOnMapVC.swift */; };
-		0404618321C19F77003FD7C9 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 0404618221C19F77003FD7C9 /* Utilities */; };
+		0404618621C19FC3003FD7C9 /* FetchLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404618521C19FC2003FD7C9 /* FetchLocation.swift */; };
+		0404618921C19FE1003FD7C9 /* NSUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404618821C19FE1003FD7C9 /* NSUtility.swift */; };
 		8E29287F1A2A591694C2B95E /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938D22CE01A346AB074E42E /* Pods_Assignment.framework */; };
 		D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */; };
 		D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008621C1196D00C3BB09 /* ConstantData.swift */; };
@@ -30,12 +31,12 @@
 		D760D4A921BFEA5A00422A4D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D4A821BFEA5A00422A4D /* PostViewModel.swift */; };
 		D760D4AC21BFEBEE00422A4D /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D4AB21BFEBEE00422A4D /* AddressVC.swift */; };
 		D760D4AE21BFED7500422A4D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D4AD21BFED7500422A4D /* AppDelegate.swift */; };
-		D760D4B121BFEE4200422A4D /* FetchLocation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D4B021BFEE4200422A4D /* FetchLocation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0404617A21C180F0003FD7C9 /* AddressOnMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressOnMapVC.swift; sourceTree = "<group>"; };
-		0404618221C19F77003FD7C9 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		0404618521C19FC2003FD7C9 /* FetchLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchLocation.swift; sourceTree = "<group>"; };
+		0404618821C19FE1003FD7C9 /* NSUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUtility.swift; sourceTree = "<group>"; };
 		1938D22CE01A346AB074E42E /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategoriesViewController.swift; sourceTree = "<group>"; };
 		D738008621C1196D00C3BB09 /* ConstantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantData.swift; sourceTree = "<group>"; };
@@ -59,7 +60,6 @@
 		D760D4A821BFEA5A00422A4D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		D760D4AB21BFEBEE00422A4D /* AddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
 		D760D4AD21BFED7500422A4D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D760D4B021BFEE4200422A4D /* FetchLocation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchLocation.swift; sourceTree = "<group>"; };
 		DF1920732E95C378094EE01D /* Pods-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		FF0827D8505B3C4E144523A5 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,6 +76,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0404618421C19FC2003FD7C9 /* GoogleLocationManager */ = {
+			isa = PBXGroup;
+			children = (
+				0404618521C19FC2003FD7C9 /* FetchLocation.swift */,
+			);
+			path = GoogleLocationManager;
+			sourceTree = "<group>";
+		};
+		0404618721C19FE1003FD7C9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				0404618821C19FE1003FD7C9 /* NSUtility.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		8B3B985651BDE53567F27612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -123,8 +139,8 @@
 		D760D46721BFDA9100422A4D /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				0404618221C19F77003FD7C9 /* Utilities */,
-				D760D4AF21BFEE4100422A4D /* GoogleLocationManager */,
+				0404618721C19FE1003FD7C9 /* Utilities */,
+				0404618421C19FC2003FD7C9 /* GoogleLocationManager */,
 				D760D49721BFE66F00422A4D /* Constants */,
 				D760D48D21BFE60500422A4D /* Resources */,
 				D760D48221BFDB9200422A4D /* Businesslayer */,
@@ -262,14 +278,6 @@
 			path = PickLocationViewController;
 			sourceTree = "<group>";
 		};
-		D760D4AF21BFEE4100422A4D /* GoogleLocationManager */ = {
-			isa = PBXGroup;
-			children = (
-				D760D4B021BFEE4200422A4D /* FetchLocation.swift */,
-			);
-			path = GoogleLocationManager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -337,7 +345,6 @@
 				D760D49421BFE63000422A4D /* CountryListViewController.xib in Resources */,
 				D760D48821BFDB9200422A4D /* LaunchScreen.storyboard in Resources */,
 				D760D47021BFDA9300422A4D /* Assets.xcassets in Resources */,
-				0404618321C19F77003FD7C9 /* Utilities in Resources */,
 				D760D48F21BFE61400422A4D /* countries.json in Resources */,
 				D760D48921BFDB9200422A4D /* Main.storyboard in Resources */,
 			);
@@ -413,7 +420,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D760D4B121BFEE4200422A4D /* FetchLocation.swift in Sources */,
 				D760D4A921BFEA5A00422A4D /* PostViewModel.swift in Sources */,
 				D760D4AC21BFEBEE00422A4D /* AddressVC.swift in Sources */,
 				D760D4A421BFE66F00422A4D /* Colors.swift in Sources */,
@@ -423,11 +429,13 @@
 				D760D48C21BFDCE500422A4D /* PostViewController.swift in Sources */,
 				0404617B21C180F1003FD7C9 /* AddressOnMapVC.swift in Sources */,
 				D760D4A721BFE78C00422A4D /* ExtensionFile.swift in Sources */,
+				0404618621C19FC3003FD7C9 /* FetchLocation.swift in Sources */,
 				D760D49521BFE63000422A4D /* CountryListViewController.swift in Sources */,
 				D760D49F21BFE66F00422A4D /* GlobalValues.swift in Sources */,
 				D760D4AE21BFED7500422A4D /* AppDelegate.swift in Sources */,
 				D760D4A521BFE66F00422A4D /* ConstantStrings.swift in Sources */,
 				D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */,
+				0404618921C19FE1003FD7C9 /* NSUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
