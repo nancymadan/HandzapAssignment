@@ -20,6 +20,8 @@
 		040461A521C1A12E003FD7C9 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A021C1A12E003FD7C9 /* AddressVC.swift */; };
 		040461A621C1A12E003FD7C9 /* AddressOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A121C1A12E003FD7C9 /* AddressOnMapVC.swift */; };
 		040461AB21C1A252003FD7C9 /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A821C1A252003FD7C9 /* GlobalValues.swift */; };
+		040461AF21C1A69A003FD7C9 /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A721C1A252003FD7C9 /* ConstantStrings.swift */; };
+		040461B021C1A69E003FD7C9 /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A921C1A252003FD7C9 /* FontConstants.swift */; };
 		8E29287F1A2A591694C2B95E /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938D22CE01A346AB074E42E /* Pods_Assignment.framework */; };
 		D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */; };
 		D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008621C1196D00C3BB09 /* ConstantData.swift */; };
@@ -412,9 +414,11 @@
 			files = (
 				D760D4A921BFEA5A00422A4D /* PostViewModel.swift in Sources */,
 				D760D4A421BFE66F00422A4D /* Colors.swift in Sources */,
+				040461B021C1A69E003FD7C9 /* FontConstants.swift in Sources */,
 				D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */,
 				D738008F21C1279800C3BB09 /* DatePickerView.swift in Sources */,
 				D760D48C21BFDCE500422A4D /* PostViewController.swift in Sources */,
+				040461AF21C1A69A003FD7C9 /* ConstantStrings.swift in Sources */,
 				0404619A21C1A0F6003FD7C9 /* AppDelegate.swift in Sources */,
 				040461A521C1A12E003FD7C9 /* AddressVC.swift in Sources */,
 				0404618621C19FC3003FD7C9 /* FetchLocation.swift in Sources */,
