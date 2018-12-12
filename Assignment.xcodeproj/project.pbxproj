@@ -11,7 +11,6 @@
 		0404618921C19FE1003FD7C9 /* NSUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404618821C19FE1003FD7C9 /* NSUtility.swift */; };
 		0404619321C1A0AF003FD7C9 /* ExtensionFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404618B21C1A0AF003FD7C9 /* ExtensionFile.swift */; };
 		0404619421C1A0AF003FD7C9 /* countries.json in Resources */ = {isa = PBXBuildFile; fileRef = 0404618D21C1A0AF003FD7C9 /* countries.json */; };
-		0404619521C1A0AF003FD7C9 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0404618F21C1A0AF003FD7C9 /* Info.plist */; };
 		0404619621C1A0AF003FD7C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404619121C1A0AF003FD7C9 /* LaunchScreen.storyboard */; };
 		0404619721C1A0AF003FD7C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0404619221C1A0AF003FD7C9 /* Main.storyboard */; };
 		0404619A21C1A0F6003FD7C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404619921C1A0F6003FD7C9 /* AppDelegate.swift */; };
@@ -20,6 +19,7 @@
 		040461A421C1A12E003FD7C9 /* TokenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0404619E21C1A12E003FD7C9 /* TokenView.xib */; };
 		040461A521C1A12E003FD7C9 /* AddressVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A021C1A12E003FD7C9 /* AddressVC.swift */; };
 		040461A621C1A12E003FD7C9 /* AddressOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A121C1A12E003FD7C9 /* AddressOnMapVC.swift */; };
+		040461AB21C1A252003FD7C9 /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040461A821C1A252003FD7C9 /* GlobalValues.swift */; };
 		8E29287F1A2A591694C2B95E /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938D22CE01A346AB074E42E /* Pods_Assignment.framework */; };
 		D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */; };
 		D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008621C1196D00C3BB09 /* ConstantData.swift */; };
@@ -27,10 +27,7 @@
 		D738009121C127A700C3BB09 /* DatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D738009021C127A700C3BB09 /* DatePickerView.xib */; };
 		D760D47021BFDA9300422A4D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D760D46F21BFDA9300422A4D /* Assets.xcassets */; };
 		D760D48C21BFDCE500422A4D /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D48B21BFDCE500422A4D /* PostViewController.swift */; };
-		D760D49F21BFE66F00422A4D /* GlobalValues.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D49821BFE66F00422A4D /* GlobalValues.swift */; };
-		D760D4A321BFE66F00422A4D /* FontConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D49C21BFE66F00422A4D /* FontConstants.swift */; };
 		D760D4A421BFE66F00422A4D /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D49D21BFE66F00422A4D /* Colors.swift */; };
-		D760D4A521BFE66F00422A4D /* ConstantStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D49E21BFE66F00422A4D /* ConstantStrings.swift */; };
 		D760D4A921BFEA5A00422A4D /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D760D4A821BFEA5A00422A4D /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +45,9 @@
 		0404619E21C1A12E003FD7C9 /* TokenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TokenView.xib; sourceTree = "<group>"; };
 		040461A021C1A12E003FD7C9 /* AddressVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressVC.swift; sourceTree = "<group>"; };
 		040461A121C1A12E003FD7C9 /* AddressOnMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressOnMapVC.swift; sourceTree = "<group>"; };
+		040461A721C1A252003FD7C9 /* ConstantStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
+		040461A821C1A252003FD7C9 /* GlobalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
+		040461A921C1A252003FD7C9 /* FontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
 		1938D22CE01A346AB074E42E /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategoriesViewController.swift; sourceTree = "<group>"; };
 		D738008621C1196D00C3BB09 /* ConstantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantData.swift; sourceTree = "<group>"; };
@@ -56,10 +56,7 @@
 		D760D46521BFDA9100422A4D /* Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D760D46F21BFDA9300422A4D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D760D48B21BFDCE500422A4D /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
-		D760D49821BFE66F00422A4D /* GlobalValues.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalValues.swift; sourceTree = "<group>"; };
-		D760D49C21BFE66F00422A4D /* FontConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontConstants.swift; sourceTree = "<group>"; };
 		D760D49D21BFE66F00422A4D /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		D760D49E21BFE66F00422A4D /* ConstantStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantStrings.swift; sourceTree = "<group>"; };
 		D760D4A821BFEA5A00422A4D /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		DF1920732E95C378094EE01D /* Pods-Assignment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.debug.xcconfig"; sourceTree = "<group>"; };
 		FF0827D8505B3C4E144523A5 /* Pods-Assignment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Assignment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Assignment/Pods-Assignment.release.xcconfig"; sourceTree = "<group>"; };
@@ -262,10 +259,10 @@
 		D760D49721BFE66F00422A4D /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				D760D49821BFE66F00422A4D /* GlobalValues.swift */,
-				D760D49C21BFE66F00422A4D /* FontConstants.swift */,
+				040461A721C1A252003FD7C9 /* ConstantStrings.swift */,
+				040461A921C1A252003FD7C9 /* FontConstants.swift */,
+				040461A821C1A252003FD7C9 /* GlobalValues.swift */,
 				D760D49D21BFE66F00422A4D /* Colors.swift */,
-				D760D49E21BFE66F00422A4D /* ConstantStrings.swift */,
 				D738008621C1196D00C3BB09 /* ConstantData.swift */,
 			);
 			path = Constants;
@@ -334,7 +331,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				D738009121C127A700C3BB09 /* DatePickerView.xib in Resources */,
-				0404619521C1A0AF003FD7C9 /* Info.plist in Resources */,
 				040461A421C1A12E003FD7C9 /* TokenView.xib in Resources */,
 				0404619721C1A0AF003FD7C9 /* Main.storyboard in Resources */,
 				040461A221C1A12E003FD7C9 /* CountryListViewController.xib in Resources */,
@@ -418,18 +414,16 @@
 				D760D4A421BFE66F00422A4D /* Colors.swift in Sources */,
 				D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */,
 				D738008F21C1279800C3BB09 /* DatePickerView.swift in Sources */,
-				D760D4A321BFE66F00422A4D /* FontConstants.swift in Sources */,
 				D760D48C21BFDCE500422A4D /* PostViewController.swift in Sources */,
 				0404619A21C1A0F6003FD7C9 /* AppDelegate.swift in Sources */,
 				040461A521C1A12E003FD7C9 /* AddressVC.swift in Sources */,
 				0404618621C19FC3003FD7C9 /* FetchLocation.swift in Sources */,
 				040461A621C1A12E003FD7C9 /* AddressOnMapVC.swift in Sources */,
-				D760D49F21BFE66F00422A4D /* GlobalValues.swift in Sources */,
 				040461A321C1A12E003FD7C9 /* CountryListViewController.swift in Sources */,
 				0404619321C1A0AF003FD7C9 /* ExtensionFile.swift in Sources */,
-				D760D4A521BFE66F00422A4D /* ConstantStrings.swift in Sources */,
 				D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */,
 				0404618921C19FE1003FD7C9 /* NSUtility.swift in Sources */,
+				040461AB21C1A252003FD7C9 /* GlobalValues.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
