@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="DatePickerView" customModule="Assignment" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xo3-UK-zm6">
+                    <rect key="frame" x="0.0" y="427" width="375" height="240"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjK-JZ-9Vj">
+                            <rect key="frame" x="295" y="0.0" width="80" height="56"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="80" id="jTX-VS-FSh"/>
+                                <constraint firstAttribute="height" constant="56" id="pCn-A6-zm8"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="14"/>
+                            <state key="normal" title="DONE">
+                                <color key="titleColor" red="0.1529411765" green="0.42352941179999998" blue="0.51372549020000002" alpha="1" colorSpace="calibratedRGB"/>
+                            </state>
+                            <connections>
+                                <action selector="actionDone:" destination="iN0-l3-epB" eventType="touchUpInside" id="Tpo-8I-oFr"/>
+                            </connections>
+                        </button>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="Wze-Kf-cOd">
+                            <rect key="frame" x="0.0" y="57" width="375" height="183"/>
+                            <date key="date" timeIntervalSinceReferenceDate="566306806.70689094">
+                                <!--2018-12-12 11:26:46 +0000-->
+                            </date>
+                            <locale key="locale" localeIdentifier="en_IN"/>
+                        </datePicker>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Udg-Pe-Acm">
+                            <rect key="frame" x="0.0" y="56" width="375" height="1"/>
+                            <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="u4O-wH-u0h"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstItem="Wze-Kf-cOd" firstAttribute="top" secondItem="Udg-Pe-Acm" secondAttribute="bottom" id="5pp-AB-NBv"/>
+                        <constraint firstItem="Wze-Kf-cOd" firstAttribute="leading" secondItem="Xo3-UK-zm6" secondAttribute="leading" id="H1B-Zw-bgv"/>
+                        <constraint firstAttribute="bottom" secondItem="Wze-Kf-cOd" secondAttribute="bottom" id="PQT-7m-1T6"/>
+                        <constraint firstItem="Udg-Pe-Acm" firstAttribute="leading" secondItem="Xo3-UK-zm6" secondAttribute="leading" id="Pcn-Es-02S"/>
+                        <constraint firstAttribute="trailing" secondItem="Udg-Pe-Acm" secondAttribute="trailing" id="VJ4-yX-1Ml"/>
+                        <constraint firstItem="DjK-JZ-9Vj" firstAttribute="top" secondItem="Xo3-UK-zm6" secondAttribute="top" id="ZbP-0C-vSm"/>
+                        <constraint firstItem="Udg-Pe-Acm" firstAttribute="top" secondItem="DjK-JZ-9Vj" secondAttribute="bottom" id="hAB-C5-ROT"/>
+                        <constraint firstAttribute="trailing" secondItem="DjK-JZ-9Vj" secondAttribute="trailing" id="mR3-C8-6hF"/>
+                        <constraint firstAttribute="height" constant="240" id="nMf-Rt-Fre"/>
+                        <constraint firstAttribute="trailing" secondItem="Wze-Kf-cOd" secondAttribute="trailing" id="yqV-Xm-2Vy"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.45000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Xo3-UK-zm6" secondAttribute="bottom" id="EfJ-cB-g4o"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Xo3-UK-zm6" secondAttribute="trailing" id="Kww-Ce-j8c"/>
+                <constraint firstItem="Xo3-UK-zm6" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="UM6-fq-F1z"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="myDatePicker" destination="Wze-Kf-cOd" id="SzF-ow-Kkj"/>
+                <outlet property="viewPicker" destination="Xo3-UK-zm6" id="n1j-SZ-nbk"/>
+            </connections>
+        </view>
+    </objects>
+</document>
