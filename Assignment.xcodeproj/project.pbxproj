@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0404617B21C180F1003FD7C9 /* AddressOnMapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0404617A21C180F0003FD7C9 /* AddressOnMapVC.swift */; };
-		6305649321C0252100B9986D /* NSUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6305649221C0252100B9986D /* NSUtility.swift */; };
+		0404618321C19F77003FD7C9 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 0404618221C19F77003FD7C9 /* Utilities */; };
 		8E29287F1A2A591694C2B95E /* Pods_Assignment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1938D22CE01A346AB074E42E /* Pods_Assignment.framework */; };
 		D738008521C0F61900C3BB09 /* PostCategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */; };
 		D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D738008621C1196D00C3BB09 /* ConstantData.swift */; };
@@ -35,8 +35,8 @@
 
 /* Begin PBXFileReference section */
 		0404617A21C180F0003FD7C9 /* AddressOnMapVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddressOnMapVC.swift; sourceTree = "<group>"; };
+		0404618221C19F77003FD7C9 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
 		1938D22CE01A346AB074E42E /* Pods_Assignment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Assignment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6305649221C0252100B9986D /* NSUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUtility.swift; sourceTree = "<group>"; };
 		D738008421C0F61900C3BB09 /* PostCategoriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCategoriesViewController.swift; sourceTree = "<group>"; };
 		D738008621C1196D00C3BB09 /* ConstantData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConstantData.swift; sourceTree = "<group>"; };
 		D738008E21C1279800C3BB09 /* DatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerView.swift; sourceTree = "<group>"; };
@@ -76,14 +76,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6305649121C0252100B9986D /* Utilities */ = {
-			isa = PBXGroup;
-			children = (
-				6305649221C0252100B9986D /* NSUtility.swift */,
-			);
-			path = Utilities;
-			sourceTree = "<group>";
-		};
 		8B3B985651BDE53567F27612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,7 +123,7 @@
 		D760D46721BFDA9100422A4D /* Assignment */ = {
 			isa = PBXGroup;
 			children = (
-				6305649121C0252100B9986D /* Utilities */,
+				0404618221C19F77003FD7C9 /* Utilities */,
 				D760D4AF21BFEE4100422A4D /* GoogleLocationManager */,
 				D760D49721BFE66F00422A4D /* Constants */,
 				D760D48D21BFE60500422A4D /* Resources */,
@@ -345,6 +337,7 @@
 				D760D49421BFE63000422A4D /* CountryListViewController.xib in Resources */,
 				D760D48821BFDB9200422A4D /* LaunchScreen.storyboard in Resources */,
 				D760D47021BFDA9300422A4D /* Assets.xcassets in Resources */,
+				0404618321C19F77003FD7C9 /* Utilities in Resources */,
 				D760D48F21BFE61400422A4D /* countries.json in Resources */,
 				D760D48921BFDB9200422A4D /* Main.storyboard in Resources */,
 			);
@@ -423,7 +416,6 @@
 				D760D4B121BFEE4200422A4D /* FetchLocation.swift in Sources */,
 				D760D4A921BFEA5A00422A4D /* PostViewModel.swift in Sources */,
 				D760D4AC21BFEBEE00422A4D /* AddressVC.swift in Sources */,
-				6305649321C0252100B9986D /* NSUtility.swift in Sources */,
 				D760D4A421BFE66F00422A4D /* Colors.swift in Sources */,
 				D738008721C1196D00C3BB09 /* ConstantData.swift in Sources */,
 				D738008F21C1279800C3BB09 /* DatePickerView.swift in Sources */,
