@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="RobotoCondensed-Regular.ttf">
+            <string>RobotoCondensed-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="40"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Z3k-hD-CAU">
+                    <rect key="frame" x="0.0" y="0.0" width="24" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="24" id="Tsr-TR-K3x"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UY5-oP-PPy">
+                    <rect key="frame" x="24" y="0.0" width="536" height="40"/>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Regular" family="Roboto Condensed" pointSize="14"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SmW-c7-Sal">
+                    <rect key="frame" x="552" y="0.0" width="48" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="48" id="dhG-Gd-V0T"/>
+                    </constraints>
+                    <state key="normal" image="ic_cross_white">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.1529411765" green="0.46666666670000001" blue="0.80000000000000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="SmW-c7-Sal" secondAttribute="bottom" id="0Xs-K0-tf2"/>
+                <constraint firstItem="SmW-c7-Sal" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="1e4-7g-3Mm"/>
+                <constraint firstItem="Z3k-hD-CAU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="C0K-0L-T4h"/>
+                <constraint firstItem="Z3k-hD-CAU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="Dam-pa-97I"/>
+                <constraint firstItem="UY5-oP-PPy" firstAttribute="leading" secondItem="Z3k-hD-CAU" secondAttribute="trailing" id="Lv6-rK-M5R"/>
+                <constraint firstAttribute="trailing" secondItem="SmW-c7-Sal" secondAttribute="trailing" id="NU6-Vo-GDk"/>
+                <constraint firstAttribute="bottom" secondItem="Z3k-hD-CAU" secondAttribute="bottom" id="OSV-21-fRo"/>
+                <constraint firstItem="SmW-c7-Sal" firstAttribute="leading" secondItem="UY5-oP-PPy" secondAttribute="trailing" constant="-8" id="cae-2c-G5E"/>
+                <constraint firstItem="UY5-oP-PPy" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="sbX-5P-wS4"/>
+                <constraint firstAttribute="bottom" secondItem="UY5-oP-PPy" secondAttribute="bottom" id="y7M-Ck-xUz"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="16"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="-3" y="158"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_cross_white" width="8" height="8"/>
+    </resources>
+</document>
